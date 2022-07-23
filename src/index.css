@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Joan&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  background: #23252C;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 317px 1fr;
+  grid-template-rows: 30px 317px 399px 64px 30px;
+}
+
+.Pic {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+
+.Pic img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Header {
+  grid-column: 2/3;
+  grid-row: 3;
+}
+
+.Genrale-info {
+  font-family: 'Inter';
+  font-style: normal;
+  text-align: center;
+  color: #F5F5F5;
+  background-color: #1A1B21;
+  padding: 20px;
+  margin-top: -5px;
+
+
+}
+
+.Genrale-info h2 {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.Genrale-info p span {
+  font-weight: 400;
+  font-size: 12.8px;
+
+  color: #F3BF99;
+
+}
+
+
+
+.Genrale-info p {
+  font-weight: 400;
+  font-size: 10.24px;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#b1 {
+  background: rgba(80, 147, 226, 1);
+  justify-content: space-evenly;
+}
+
+#b2 {
+  background: white;
+  color: #374151;
+  justify-content: space-evenly;
+
+}
+
+.about {
+  text-align: left;
+}
+
+.Interests {
+  text-align: left;
+}
+
+.Header-Container {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+
+
+.footer {
+  grid-column: 2/3;
+  grid-row: 5/5;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer svg {
+  fill: #918E9B;
+  width: 25px;
+  padding: 14px;
+}
+
+
+#b1 svg {
+  fill: white;
+  width: 20px;
+}
+
+#b2 svg {
+  width: 20px;
+  fill: #918E9B;
+}
+
+
+a svg:hover {
+  fill: white;
+}
